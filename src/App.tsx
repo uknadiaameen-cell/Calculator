@@ -4,7 +4,7 @@
  */
 
 import React, { useState } from 'react';
-import { motion, AnimatePresence } from 'motion/react';
+import { motion } from 'motion/react';
 import { Delete, Divide, Minus, Plus, X, Equal, RotateCcw } from 'lucide-react';
 
 type Operation = '+' | '-' | '*' | '/' | null;
